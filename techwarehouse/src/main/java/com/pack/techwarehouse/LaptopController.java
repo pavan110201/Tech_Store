@@ -11,6 +11,7 @@ public class LaptopController
     {
         this.repository = repository;
     }
+
     @GetMapping("/laptops")
     public Iterable<Laptop> getLaptops() 
     {

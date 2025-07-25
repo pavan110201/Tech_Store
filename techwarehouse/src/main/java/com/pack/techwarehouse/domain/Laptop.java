@@ -14,12 +14,13 @@ public class Laptop
 	private Long id;
 
 	private String brand, model, color, serialNumber;
+
 	private int modelYear, price;
+
 	public Laptop() 
 	{
 	}
-	public Laptop(String brand, String model, String color, String serialNumber, int modelYear, int price, Owner owner) 
-	{
+	public Laptop(String brand, String model, String color, String serialNumber, int modelYear, int price, Owner owner) {
 		super();
 		this.brand = brand;
 		this.model = model;

@@ -9,24 +9,25 @@ import com.pack.techwarehouse.domain.Laptop;
 import com.pack.techwarehouse.domain.LaptopRepository;
 import com.pack.techwarehouse.domain.Owner;
 import com.pack.techwarehouse.domain.OwnerRepository;
+import com.pack.techwarehouse.domain.AppUser;
+import com.pack.techwarehouse.domain.AppUserRepository;
 @SpringBootApplication
 public class TechwarehouseApplication implements CommandLineRunner 
 {
     private static final Logger logger = LoggerFactory.getLogger(TechwarehouseApplication.class);
     private final LaptopRepository laptopRepository;
     private final OwnerRepository ownerRepository;
-
-    public TechwarehouseApplication(LaptopRepository laptopRepository, OwnerRepository ownerRepository) 
+    private final AppUserRepository urepository;
+    public TechwarehouseApplication(LaptopRepository laptopRepository, OwnerRepository ownerRepository, AppUserRepository urepository) 
     {
         this.laptopRepository = laptopRepository;
         this.ownerRepository = ownerRepository;
+        this.urepository = urepository; 
     }
-
     public static void main(String[] args) 
     {
         SpringApplication.run(TechwarehouseApplication.class, args);
     }
-
     @Override
     public void run(String... args) throws Exception 
     {
@@ -43,7 +44,10 @@ public class TechwarehouseApplication implements CommandLineRunner
         Laptop laptop4 = new Laptop("HP", "Spectre x360","blue","6d6d9c7a-a2b4-4cfe-9b4b-8fc7a556a3ea", 2025, 1300, owner4);
         Laptop laptop5 = new Laptop("Asus", "ROG Zephyrus","black","8a6d9c7a-a2b4-4cfe-9b4b-8fc7a556a3df", 2024, 1800, owner5);
         laptopRepository.saveAll(Arrays.asList(laptop1, laptop2, laptop3, laptop4, laptop5));
-        
+        urepository.save(new AppUser(
+        	    "user", "$2a$12$N0hMG5zyZ29YJsw8RscYqOO65dDww7Ug1zt9WTTFMwCBHR/agxAey", "USER"));
+        	urepository.save(new AppUser(
+        	    "admin", "$2a$12$EA8edaPVy8ny0L0fP2ZRbOUnL86RRRF3EVt07LB2edaAytetDzfpq", "ADMIN"));
         for (Laptop laptop : laptopRepository.findAll()) 
         {
         	logger.info("serialNumber: {}, id: {}", laptop.getserialNumber(), laptop.getId());
