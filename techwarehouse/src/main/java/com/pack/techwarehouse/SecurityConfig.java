@@ -35,11 +35,11 @@ public class SecurityConfig
     }
 }
 */
-//Using Store credentials for login,  and uncomment the UserDetailServiceImpl
+//Using Store credentials for login,  and uncomment the UserDetailServiceImpl, no JWT 
 
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import com.pack.techwarehouse.service.UserDetailsServiceImpl;
-// Those Imports are commonly shared by for base Login and JWT Filter 
+// Those Imports are commonly shared by for base Login  & JWT
 /*
 @Configuration
 @EnableWebSecurity
@@ -61,7 +61,7 @@ public PasswordEncoder passwordEncoder()
 }
 }
 */
-// JWT Login and CORS Filter
+// Login based on JWT Token, Role based access and CORS Filter
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
 import org.springframework.security.web.SecurityFilterChain;
@@ -107,7 +107,11 @@ public class SecurityConfig
                     "/webjars/**"
                 ).permitAll()
                 .requestMatchers(HttpMethod.POST, "/login").permitAll()
-                .anyRequest().authenticated()
+                .requestMatchers(HttpMethod.DELETE, "/**").hasRole("ADMIN") // Role based acess, Admin able to delete the product 
+                .anyRequest().hasAnyRole("USER", "ADMIN") // Role based acess
+                /*
+                .anyRequest().authenticated() // For without role based access uncomment this and comment requestmatchers delete, Admin role
+                */
             )
             .addFilterBefore(authenticationFilter, UsernamePasswordAuthenticationFilter.class)
             .exceptionHandling(ex -> ex.authenticationEntryPoint(exceptionHandler));
@@ -137,32 +141,3 @@ public class SecurityConfig
         return source;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

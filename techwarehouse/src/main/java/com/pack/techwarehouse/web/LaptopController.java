@@ -18,5 +18,3 @@ public class LaptopController
         return repository.findAll();
     }
 }
-
-
