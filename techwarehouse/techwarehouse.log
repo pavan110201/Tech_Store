@@ -1,0 +1,98 @@
+2025-07-21T17:12:33.616-05:00  INFO 17512 --- [restartedMain] c.p.t.TechwarehouseApplication           : Starting TechwarehouseApplication using Java 17.0.12 with PID 17512 (C:\Users\vakap\Downloads\Full-Stack-Web-Deveploment\Laptop databe project\techwarehouse\bin\main started by vakap in C:\Users\vakap\Downloads\Full-Stack-Web-Deveploment\Laptop databe project\techwarehouse)
+2025-07-21T17:12:33.637-05:00  INFO 17512 --- [restartedMain] c.p.t.TechwarehouseApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-07-21T17:12:33.745-05:00  INFO 17512 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-21T17:12:33.746-05:00  INFO 17512 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-21T17:12:35.386-05:00  INFO 17512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-21T17:12:35.476-05:00  INFO 17512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 2 JPA repository interfaces.
+2025-07-21T17:12:36.858-05:00  INFO 17512 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-07-21T17:12:36.878-05:00  INFO 17512 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-21T17:12:36.880-05:00  INFO 17512 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2025-07-21T17:12:37.034-05:00  INFO 17512 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-21T17:12:37.034-05:00  INFO 17512 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3284 ms
+2025-07-21T17:12:37.304-05:00  INFO 17512 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-21T17:12:37.453-05:00  INFO 17512 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2025-07-21T17:12:37.458-05:00  INFO 17512 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2025-07-21T17:12:37.782-05:00  INFO 17512 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-07-21T17:12:37.985-05:00  INFO 17512 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-21T17:12:38.017-05:00  INFO 17512 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-21T17:12:38.265-05:00  INFO 17512 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@3a0a53eb
+2025-07-21T17:12:38.268-05:00  INFO 17512 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-21T17:12:38.696-05:00  INFO 17512 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-07-21T17:12:39.517-05:00  INFO 17512 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-07-21T17:12:39.609-05:00  INFO 17512 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-21T17:12:40.417-05:00  WARN 17512 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-21T17:12:41.576-05:00  INFO 17512 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-21T17:12:41.623-05:00  INFO 17512 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-07-21T17:12:41.642-05:00  INFO 17512 --- [restartedMain] c.p.t.TechwarehouseApplication           : Started TechwarehouseApplication in 8.66 seconds (process running for 9.464)
+2025-07-21T17:12:41.957-05:00  INFO 17512 --- [restartedMain] c.p.t.TechwarehouseApplication           : serialNumber: 3f6d9c7a-e1b4-4cfe-9b4b-8fc7a556a3cz, id: 1
+2025-07-21T17:12:41.957-05:00  INFO 17512 --- [restartedMain] c.p.t.TechwarehouseApplication           : serialNumber: 9f6d9c7a-a2b4-4cfe-9b4b-8fc7a556a3dk, id: 2
+2025-07-21T17:12:41.957-05:00  INFO 17512 --- [restartedMain] c.p.t.TechwarehouseApplication           : serialNumber: 7d6d9c7a-a2b4-4cfe-9b4b-8fc7a556a3np, id: 3
+2025-07-21T17:12:41.957-05:00  INFO 17512 --- [restartedMain] c.p.t.TechwarehouseApplication           : serialNumber: 6d6d9c7a-a2b4-4cfe-9b4b-8fc7a556a3ea, id: 4
+2025-07-21T17:12:41.957-05:00  INFO 17512 --- [restartedMain] c.p.t.TechwarehouseApplication           : serialNumber: 8a6d9c7a-a2b4-4cfe-9b4b-8fc7a556a3df, id: 5
+2025-07-21T17:13:57.360-05:00  INFO 22220 --- [restartedMain] c.p.t.TechwarehouseApplication           : Starting TechwarehouseApplication using Java 17.0.12 with PID 22220 (C:\Users\vakap\Downloads\Full-Stack-Web-Deveploment\Laptop databe project\techwarehouse\bin\main started by vakap in C:\Users\vakap\Downloads\Full-Stack-Web-Deveploment\Laptop databe project\techwarehouse)
+2025-07-21T17:13:57.363-05:00  INFO 22220 --- [restartedMain] c.p.t.TechwarehouseApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-07-21T17:13:57.483-05:00  INFO 22220 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-21T17:13:57.483-05:00  INFO 22220 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-21T17:13:59.205-05:00  INFO 22220 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-21T17:13:59.287-05:00  INFO 22220 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 2 JPA repository interfaces.
+2025-07-21T17:14:00.735-05:00  INFO 22220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-07-21T17:14:00.756-05:00  INFO 22220 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-21T17:14:00.757-05:00  INFO 22220 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2025-07-21T17:14:00.908-05:00  INFO 22220 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-21T17:14:00.909-05:00  INFO 22220 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3423 ms
+2025-07-21T17:14:01.224-05:00  INFO 22220 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-21T17:14:01.365-05:00  INFO 22220 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2025-07-21T17:14:01.372-05:00  INFO 22220 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2025-07-21T17:14:01.702-05:00  INFO 22220 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-07-21T17:14:01.935-05:00  INFO 22220 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-21T17:14:01.966-05:00  INFO 22220 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-21T17:14:02.216-05:00  INFO 22220 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@6f2a6dee
+2025-07-21T17:14:02.220-05:00  INFO 22220 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-21T17:14:02.686-05:00  INFO 22220 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-07-21T17:14:03.544-05:00  INFO 22220 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-07-21T17:14:03.638-05:00  INFO 22220 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-21T17:14:04.469-05:00  WARN 22220 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-21T17:14:05.777-05:00  INFO 22220 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-21T17:14:05.844-05:00  INFO 22220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-07-21T17:14:05.863-05:00  INFO 22220 --- [restartedMain] c.p.t.TechwarehouseApplication           : Started TechwarehouseApplication in 9.157 seconds (process running for 9.929)
+2025-07-21T17:14:06.328-05:00  INFO 22220 --- [restartedMain] c.p.t.TechwarehouseApplication           : serialNumber: 3f6d9c7a-e1b4-4cfe-9b4b-8fc7a556a3cz, id: 1
+2025-07-21T17:14:06.328-05:00  INFO 22220 --- [restartedMain] c.p.t.TechwarehouseApplication           : serialNumber: 9f6d9c7a-a2b4-4cfe-9b4b-8fc7a556a3dk, id: 2
+2025-07-21T17:14:06.329-05:00  INFO 22220 --- [restartedMain] c.p.t.TechwarehouseApplication           : serialNumber: 7d6d9c7a-a2b4-4cfe-9b4b-8fc7a556a3np, id: 3
+2025-07-21T17:14:06.329-05:00  INFO 22220 --- [restartedMain] c.p.t.TechwarehouseApplication           : serialNumber: 6d6d9c7a-a2b4-4cfe-9b4b-8fc7a556a3ea, id: 4
+2025-07-21T17:14:06.329-05:00  INFO 22220 --- [restartedMain] c.p.t.TechwarehouseApplication           : serialNumber: 8a6d9c7a-a2b4-4cfe-9b4b-8fc7a556a3df, id: 5
+2025-07-21T17:17:07.700-05:00  INFO 22220 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-21T17:17:07.702-05:00  INFO 22220 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-21T17:17:07.705-05:00  INFO 22220 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-07-21T17:20:47.563-05:00  WARN 22220 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.data.rest.webmvc.ResourceNotFoundException: EntityRepresentationModel not found]
+2025-07-21T17:21:32.845-05:00  INFO 22220 --- [http-nio-8080-exec-1] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 1359 ms
+2025-07-21T17:26:28.009-05:00  INFO 25060 --- [restartedMain] c.p.t.TechwarehouseApplication           : Starting TechwarehouseApplication using Java 17.0.12 with PID 25060 (C:\Users\vakap\Downloads\Full-Stack-Web-Deveploment\Laptop databe project\techwarehouse\bin\main started by vakap in C:\Users\vakap\Downloads\Full-Stack-Web-Deveploment\Laptop databe project\techwarehouse)
+2025-07-21T17:26:28.015-05:00  INFO 25060 --- [restartedMain] c.p.t.TechwarehouseApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-07-21T17:26:28.117-05:00  INFO 25060 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-21T17:26:28.118-05:00  INFO 25060 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-21T17:26:29.723-05:00  INFO 25060 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-21T17:26:29.805-05:00  INFO 25060 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 2 JPA repository interfaces.
+2025-07-21T17:26:31.129-05:00  INFO 25060 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-07-21T17:26:31.153-05:00  INFO 25060 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-21T17:26:31.153-05:00  INFO 25060 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2025-07-21T17:26:31.296-05:00  INFO 25060 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-21T17:26:31.297-05:00  INFO 25060 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3177 ms
+2025-07-21T17:26:31.600-05:00  INFO 25060 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-21T17:26:31.691-05:00  INFO 25060 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2025-07-21T17:26:31.695-05:00  INFO 25060 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2025-07-21T17:26:31.982-05:00  INFO 25060 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-07-21T17:26:32.151-05:00  INFO 25060 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-21T17:26:32.168-05:00  INFO 25060 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-21T17:26:32.322-05:00  INFO 25060 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@d8e4826
+2025-07-21T17:26:32.325-05:00  INFO 25060 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-21T17:26:32.764-05:00  INFO 25060 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-07-21T17:26:33.588-05:00  INFO 25060 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-07-21T17:26:33.675-05:00  INFO 25060 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-21T17:26:34.481-05:00  WARN 25060 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-21T17:26:35.726-05:00  INFO 25060 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-21T17:26:35.782-05:00  INFO 25060 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-07-21T17:26:35.805-05:00  INFO 25060 --- [restartedMain] c.p.t.TechwarehouseApplication           : Started TechwarehouseApplication in 8.431 seconds (process running for 9.186)
+2025-07-21T17:26:36.233-05:00  INFO 25060 --- [restartedMain] c.p.t.TechwarehouseApplication           : serialNumber: 3f6d9c7a-e1b4-4cfe-9b4b-8fc7a556a3cz, id: 1
+2025-07-21T17:26:36.233-05:00  INFO 25060 --- [restartedMain] c.p.t.TechwarehouseApplication           : serialNumber: 9f6d9c7a-a2b4-4cfe-9b4b-8fc7a556a3dk, id: 2
+2025-07-21T17:26:36.233-05:00  INFO 25060 --- [restartedMain] c.p.t.TechwarehouseApplication           : serialNumber: 7d6d9c7a-a2b4-4cfe-9b4b-8fc7a556a3np, id: 3
+2025-07-21T17:26:36.233-05:00  INFO 25060 --- [restartedMain] c.p.t.TechwarehouseApplication           : serialNumber: 6d6d9c7a-a2b4-4cfe-9b4b-8fc7a556a3ea, id: 4
+2025-07-21T17:26:36.233-05:00  INFO 25060 --- [restartedMain] c.p.t.TechwarehouseApplication           : serialNumber: 8a6d9c7a-a2b4-4cfe-9b4b-8fc7a556a3df, id: 5
