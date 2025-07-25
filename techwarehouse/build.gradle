@@ -29,9 +29,14 @@ dependencies
 	implementation 'io.jsonwebtoken:jjwt-api:0.11.5'
  	runtimeOnly 'io.jsonwebtoken:jjwt-impl:0.11.5', 'io.jsonwebtoken:jjwt-jackson:0.11.5'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+	testImplementation platform('org.junit:junit-bom:5.9.3')
+	testImplementation 'org.junit.jupiter:junit-jupiter-api'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.security:spring-security-test'
 	runtimeOnly 'org.mariadb.jdbc:mariadb-java-client'	
+	testRuntimeOnly 'com.h2database:h2'
 }
 tasks.named('test') 
 {
