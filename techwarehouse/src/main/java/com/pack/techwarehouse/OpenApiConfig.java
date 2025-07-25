@@ -18,6 +18,8 @@ public class OpenApiConfig
 import io.swagger.v3.oas.models.security.SecurityRequirement;
 import io.swagger.v3.oas.models.security.SecurityScheme;
 import io.swagger.v3.oas.models.Components;
+// Base Authorization
+/*
 @Configuration
 public class OpenApiConfig 
 {
@@ -39,8 +41,30 @@ public class OpenApiConfig
                         .scheme("basic")));
 	}
 }	
-
-
+*/
+// JWT Authorization
+@Configuration
+public class OpenApiConfig 
+{
+	@Bean
+	public OpenAPI carDatabaseOpenAPI() 
+	{
+       final String securitySchemeName = "bearerAuth";
+        return new OpenAPI()
+            .info(new Info()
+            .title("Laptop REST API")
+            .description("My Tech Base")
+            .version("1.0"))
+            .addSecurityItem(new SecurityRequirement().addList(securitySchemeName))
+            .components(new Components()
+            .addSecuritySchemes(securitySchemeName, 
+            new SecurityScheme()
+                        .name(securitySchemeName)
+                        .type(SecurityScheme.Type.HTTP)
+                        .scheme("bearer")
+                        .bearerFormat("JWT")));
+	}	
+}
 
 
  

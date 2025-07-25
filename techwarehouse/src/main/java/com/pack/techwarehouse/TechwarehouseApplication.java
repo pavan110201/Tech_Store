@@ -22,7 +22,7 @@ public class TechwarehouseApplication implements CommandLineRunner
     {
         this.laptopRepository = laptopRepository;
         this.ownerRepository = ownerRepository;
-        this.urepository = urepository; 
+        this.urepository = urepository;    
     }
     public static void main(String[] args) 
     {
@@ -44,6 +44,7 @@ public class TechwarehouseApplication implements CommandLineRunner
         Laptop laptop4 = new Laptop("HP", "Spectre x360","blue","6d6d9c7a-a2b4-4cfe-9b4b-8fc7a556a3ea", 2025, 1300, owner4);
         Laptop laptop5 = new Laptop("Asus", "ROG Zephyrus","black","8a6d9c7a-a2b4-4cfe-9b4b-8fc7a556a3df", 2024, 1800, owner5);
         laptopRepository.saveAll(Arrays.asList(laptop1, laptop2, laptop3, laptop4, laptop5));
+   
         urepository.save(new AppUser(
         	    "user", "$2a$12$N0hMG5zyZ29YJsw8RscYqOO65dDww7Ug1zt9WTTFMwCBHR/agxAey", "USER"));
         	urepository.save(new AppUser(
