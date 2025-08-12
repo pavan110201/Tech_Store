@@ -50,6 +50,15 @@ An enterprise level Spring Boot web application built using Java 17, Spring Fram
 - Run our Spring Boot container and link the MariaDB container: docker run -p 8080:8080 --name techapp --link techdb:mariadb -d  techwarehousebackend
 - For production, ensure your MariaDB container is running and update the application properties.yml.
 
+## Author
+
+👤 **Pavan**
+
+- GitHub: [@pavan110201](https://github.com/pavan110201)
+  
+## License
+
+- This project is licensed under the [MIT License](LICENSE).
 
 
 
